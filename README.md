@@ -1,5 +1,18 @@
 [![sleeky logo](sleeky-frontend/frontend/assets/img/logo-small.png)](https://sleeky.flynntes.com)
 
+## Optimised Version
+> by konrad
+
+modified codes for better docker deployment with YOURLS.
+- modified `sleeky-frontend/frontend/header.php` so the frontend page can display correctly.
+- modified `sleeky-backend/plugin.php` so the admin login can be correctly executed.
+
+## Reference
+[issue1](https://github.com/Flynntes/Sleeky/issues/130#issuecomment-1824605122)
+
+[issue2](https://github.com/Flynntes/Sleeky/issues/127#issuecomment-1586014710)
+
+---
 Sleeky is a minimal interface package for use with [YOURLS](https://github.com/YOURLS/YOURLS), an open source URL shortener. Sleeky adds a public interface and overhauls the backend (admin) interface. Using this theme you can create your own Bitly / URL shortening site or a shortening site for internal use at companies.
 
 Sleeky is split into two parts - **frontend** and **backend**.
